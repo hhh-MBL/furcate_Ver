@@ -7,7 +7,7 @@ const PORT = 3000; // Change this if needed
 app.use(cors()); // Allow all origins
 app.use(express.json()); // Enable JSON body parsing
 
-const version = "1.0.0"; // Change this to update the version dynamically
+const version = "1.0.1"; // Change this to update the version dynamically
 
 // GET endpoint for version
 app.get("/api/ver", (req, res) => {
